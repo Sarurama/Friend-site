@@ -1,0 +1,334 @@
+body {
+  font-family: "roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  align-items: center;
+  background: black;
+}
+button:hover {
+  cursor: pointer;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #412b97;
+  height: 72px;
+  width: 1440px;
+}
+header img {
+  margin-left: 30px;
+}
+nav {
+  margin-right: 30px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  color: white;
+  justify-content: space-around;
+  padding: 0;
+  min-width: 369px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section {
+  box-sizing: border-box;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+#contact-me-section {
+  height: 750px;
+  background-image: url("images/background-cyberpunk.png");
+
+  justify-content: center;
+  align-items: center;
+}
+#contact-me-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+#contact-me-elements h1,
+p,
+button {
+  color: white;
+}
+#contact-me-elements h1 {
+  font-size: 70px;
+  font-weight: 800;
+  font-family: "afacad", sans-serif;
+  margin: 0;
+  height: 75px;
+}
+.orange {
+  color: #ee964c;
+}
+
+#contact-me-elements p {
+  width: 700px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 35px;
+}
+#contact-me-btn {
+  height: 48px;
+  width: 136px;
+  background: #ee964c;
+  border: none;
+  margin-top: 30px;
+  font-size: 16px;
+}
+#button-section {
+  background: #4c33b2;
+  height: 411px;
+  align-items: center;
+  justify-content: center;
+}
+#button-section h2 {
+  color: white;
+  font-family: "afacad", sans-serif;
+  margin-bottom: 50px;
+}
+#button-section div {
+  display: grid;
+  width: 1312px;
+  height: 176px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 15px;
+}
+.grid-layout {
+  width: 100%;
+  background: linear-gradient(to bottom, #332278, #23174f);
+  color: white;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+}
+#what-we-give {
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 1300px;
+  background: linear-gradient(to bottom, #412b97, #1b1241);
+  justify-content: space-evenly;
+  align-items: center;
+}
+#what-we-give-text {
+  width: 616px;
+  height: 389px;
+  margin-left: 30px;
+}
+#what-we-give-text h1 {
+  font-size: 50px;
+  color: white;
+  font-family: "afacad", sans-serif;
+  margin-bottom: 20px;
+}
+#what-we-give-text p {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 300;
+  line-height: 30px;
+  inline-size: 580px;
+}
+#sub-text {
+  height: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  box-sizing: border-box;
+  grid-gap: 10px;
+}
+#sub-text h2 {
+  width: 308px;
+  margin: 0px;
+  color: white;
+}
+#sub-text p {
+  font-size: 16px;
+  width: 308px;
+  margin: 0px;
+}
+#what-we-give-image {
+  width: 641px;
+  height: 641px;
+}
+.what-we-give-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 386px;
+  height: 343px;
+  background: linear-gradient(to bottom, #2f1b7d, #2e1c6e);
+  padding: 20px;
+}
+
+.window-icon {
+  width: 22%;
+  height: 18%;
+}
+.what-we-give-window h2 {
+  margin: 0 0 30px;
+  color: white;
+  font-size: 1.7em;
+}
+.what-we-give-window p {
+  margin: 0;
+}
+.button-learnMore {
+  width: 134px;
+  height: 48px;
+  background-color: rgba(1, 1, 1, 0);
+  border: 1px solid #ee964c;
+  color: #ee964c;
+  font-size: 1em;
+}
+#reviews {
+  background-image: url(images/reviews\ background.png);
+  height: 634px;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+#reviews button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid white;
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0);
+}
+#review-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  text-wrap: wrap;
+}
+#reviews-paragraph {
+  font-size: 1.4em;
+}
+#reviewer-name {
+  font-weight: 900;
+  margin-top: 70px;
+}
+#reviewer-job {
+  font-weight: 400;
+  margin: 0;
+}
+#highlight-position {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: white solid 1px;
+  margin-right: 3px;
+}
+#FAQs {
+  flex-direction: row;
+  background: linear-gradient(to bottom, #412b97, #1b1241);
+  height: 634px;
+  padding: 100px 50px;
+}
+#FAQs div {
+  width: 50%;
+}
+h1 {
+  color: white;
+  font-size: 3em;
+  margin: 0 0 30px 0;
+}
+#FAQs button {
+  margin-top: 20px;
+}
+
+.faq-paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  margin: 0 0 10px 0;
+  color: #ee964c;
+  border: 1px solid #ee964c;
+  padding: 0 18px;
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+#email-submission {
+  height: 595px;
+  flex-direction: row;
+  background: #4c33b2;
+  align-items: center;
+  padding: 0 50px;
+  justify-content: space-between;
+}
+#email-submission div {
+  width: 40%;
+}
+#email-submission form {
+  display: flex;
+  gap: 10px;
+}
+#email-submission input {
+  background-color: rgba(0, 0, 0, 0);
+  border: white 1px solid;
+  width: 70%;
+  height: 48px;
+  outline: none;
+  font-size: 1.1em;
+  padding: 0 10px;
+  color: white;
+}
+#email-submission button {
+  background-color: #ee964c;
+  width: 18%;
+  border: none;
+  font-size: 1.1em;
+}
+#email-submission img {
+  transform: rotate(90deg);
+}
+footer {
+  height: 237px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #412b97, #1b1241);
+  width: 1440px;
+  align-items: center;
+  padding: 70px 0;
+}
+footer img {
+  width: 285px;
+  margin-bottom: 20px;
+}
+footer nav {
+  width: 30%;
+  margin: 0 0 60px 0;
+}
+hr {
+  width: 80%;
+}
+footer aside {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+}
+.underline-li {
+  text-decoration: underline;
+  font-size: 0.9em;
+}
